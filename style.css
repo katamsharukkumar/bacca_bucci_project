@@ -1,0 +1,524 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+html {
+  font-family: "inter" , sans-serif !important;
+}
+*p {
+  margin-bottom: 0px;
+}
+/* **********Nav1************* */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  max-height: fit-content;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px;
+}
+.icon {
+  font-size: 1.5rem;
+  padding-left: 5px;
+}
+.form-control+.btn {
+ background-color: #f59f00;
+}
+.logo-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 10px;
+}
+img {
+  display: block;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f59f00 !important;
+
+}
+.searchbar {
+  outline: none;
+  border: 1px solid;
+  width: 30rem;
+  border-radius: 10px 0px 0px 10px;
+}
+.search-icon {
+  background-color: #f59f00;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.icons {
+  position: relative;
+  padding: 4px;
+}
+
+.msg-count {
+  font-size: 12px;
+  display: inline-block;
+  align-self: center;
+  background-color: black;
+  color: white;
+  padding: 0px 4px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+/* *************Nav2********** */
+
+.nav2 {
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.nav2-bar {
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.nav2-bar li  {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 2px 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav2-bar li p {
+  margin-bottom: 0px;
+}
+
+.nav2-menu {
+  display:none ;
+  font-size: 30px;
+  padding: 3px 0px;
+  text-align: center;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+}
+.nav3-menu {
+  display:none ;
+  font-size: 30px;
+  padding: 3px 0px;
+  text-align: center;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: all 1s ease !important;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.hover-line {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.hover-line:hover::after {
+  width: 100%;
+}
+
+.chat img {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.chat {
+  display: flex;
+  gap: 3px;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+.chat p {
+  margin-top: 8px;
+  padding: 3px 6px;
+  background-color: white;
+  border-radius: 10px;
+}
+/* ********side bar ********* */
+
+.left-sidebar {
+  width: 18rem;
+  margin-left: 30px;
+  height: 100vh;
+  overflow-y:scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ****accordian********* */
+
+
+
+.accordion-item {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+  border-bottom: 1px solid;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  outline: none !important;
+  margin: 1rem 0px;
+
+}
+
+.accordion-header,.filter {
+  width: 100%;
+  background-color: white;
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: 600;
+  text-align: left;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease !important;
+}
+.filter {
+  font-weight: 400;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+.accordion-content ul {
+  padding-left: 10px;
+}
+.accordion-content li {
+  list-style: none;
+}
+.accordion-content li input[type="checkbox"] {
+  opacity: 40%;
+}
+.accordion-content li input[type="checkbox"]:checked {
+  opacity: 100%;
+}
+
+.chevron {
+  transition: all 0.5s ease;
+  font-size: 1.2em;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.contain {
+  margin-top: 120px;
+  /* height: 100%; */
+}
+
+
+
+/* *******Feature ************ */
+.main {
+  /* margin-left: 20rem; */
+  padding: 1rem 2rem;
+  /* margin-right: 30px; */
+  height: 100vh;
+  overflow-y:scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overscroll-behavior-x:none;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.feature-right {
+  display: flex;
+  gap: 0.6rem;
+  padding-right: 3rem;
+
+}
+.feature-right>p {
+  padding-top: 0.8px;
+}
+.dropdown1 {
+  position: relative;
+  display: block;
+  
+}
+
+.dropdown-btn1 {
+  background-color: white !important;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 6rem;
+  padding-bottom: 8px;
+}
+
+.dropdown-content1 {
+  background-color: #f9f9f9;
+  display: none;
+  position: absolute;
+  width: 11rem;
+  z-index: 1;
+}
+
+.dropdown-content1 li {
+  color: black;
+  padding: 12px 0px;
+  list-style: none;
+}
+
+.show1 {
+  display: block;
+}
+
+.chevron1 {
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+  padding-top: 1px;
+}
+
+.rotate1 {
+  transform: rotate(180deg);
+}
+
+/* ******product****** */
+
+.product-section {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+.product {
+  max-width: 18rem;
+  /* max-height: 350px; */
+  /* transition: background-image 0.7s ease-in-out !important; */
+}
+.img>p {
+  font-size:0.8rem;
+  background-color:#f59f00;
+  display: inline-block;
+  padding: 1px 3px;
+  color: white;
+  margin: 10px;
+}
+
+.img button {
+  font-size: 20px;
+  background-color: #f59f00;
+  padding: 10px 70px;
+  border-radius: 40px;
+  text-align: center;
+  border: 1px solid white;
+  transform: translate(24px, 250px);
+  display: none;
+}
+.img { 
+  height: 350px;
+  background-size:cover;
+  transition: background-image 0.4s ease !important;
+}
+
+.box1 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/1_0f99aa25-2a12-47f6-b011-a4a505dc44d3_600x.jpg?v=1724830490); 
+  transition: background-image 0.4s ease !important;
+}
+
+.box1:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/2_684ac477-c56e-4108-93b6-c3acba3cfc03_300x.jpg?v=1724830490);
+}
+
+.img:hover button {
+  display: block;
+}
+
+.description {
+  padding: 5px;
+}
+
+ .description h6 {
+  margin-top: 1rem;
+  margin: 10px;
+  font-weight: 600;
+}
+.description h6+p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.p1 {
+  font-weight: 700;
+}
+.p2 {
+  text-decoration: line-through;
+}
+.rating span ion-icon {
+ color: #f59f00;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 2rem;
+}
+
+
+.box2 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/1_0b7958dc-7137-4d8f-81ab-7fd0da52e328_600x.jpg?v=1726306410);  
+}
+.box2:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/3401bd903569497e8aff677301eac90e.thumbnail.0000000000_600x.jpg?v=1729246092);
+}
+
+.box3 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/2_0edea5b9-a7e4-4fde-ae99-fe12754a9848_600x.jpg?v=1724651838);  
+}
+.box3:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/7854412d0f8640a8bb1f71e057c6e5f1.thumbnail.0000000000_300x.jpg?v=1727352498);
+}
+
+.box4 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/MG_5036_600x.jpg?v=1730969034);  
+}
+.box4:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/MG_4867_600x.jpg?v=1730461151);
+}
+
+.box5 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/1_7d49007c-898d-49a4-9819-a9acfe465cb1_600x.jpg?v=1720870406);  
+}
+.box5:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/891ba7e125f84d36b573191375dc216e.thumbnail.0000000000_600x.jpg?v=1724830675);
+}
+
+.box6 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/GREY_DSC00472-Edit-3-Edit_600x.jpg?v=1723037724);  
+}
+.box6:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/484fcd80a39a49e5b26ff3cfd0d30e0f.thumbnail.0000000000_600x.jpg?v=1723400937);
+}
+
+
+.box7 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/484fcd80a39a49e5b26ff3cfd0d30e0f.thumbnail.0000000000_600x.jpg?v=1723400937);  
+}
+.box7:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/IMG_9315_df8e86a8-155f-49e7-8498-dc47c8e45a4e_600x.jpg?v=1714634319);
+}
+
+.box8 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/MG_8700_600x.jpg?v=1720176311);  
+}
+.box8:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/MG_8698_600x.jpg?v=1720176311);
+}
+
+
+.box9 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/RED_DSC00619_600x.jpg?v=1723037724);  
+}
+.box9:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/484fcd80a39a49e5b26ff3cfd0d30e0f.thumbnail.0000000000_600x.jpg?v=1723400937);
+}
+
+.box10 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/2_7c25e6e8-2166-4374-b6a9-eb148670cb28_600x.jpg?v=1724651828);  
+}
+.box10:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/7854412d0f8640a8bb1f71e057c6e5f1.thumbnail.0000000000_600x.jpg?v=1727352498);
+}
+
+.box11 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/1_7cdb6735-78ac-4ccb-b406-a3eff6c52ea6_600x.jpg?v=1720870273);  
+}
+.box11:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/1_7cdb6735-78ac-4ccb-b406-a3eff6c52ea6_600x.jpg?v=1720870273);
+}
+
+.box12 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/IMG_6474_600x.jpg?v=1718971983);  
+}
+.box12:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/IMG_6479_600x.jpg?v=1718971983);
+}
+
+.box13 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/1_0b7958dc-7137-4d8f-81ab-7fd0da52e328_600x.jpg?v=1726306410);  
+}
+.box13:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/3401bd903569497e8aff677301eac90e.thumbnail.0000000000_600x.jpg?v=1729246092);
+}
+
+.box14 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/2_0edea5b9-a7e4-4fde-ae99-fe12754a9848_600x.jpg?v=1724651838);  
+}
+.box14:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/7854412d0f8640a8bb1f71e057c6e5f1.thumbnail.0000000000_300x.jpg?v=1727352498);
+}
+
+.box15 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/MG_5036_600x.jpg?v=1730969034);  
+}
+.box15:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/MG_4867_600x.jpg?v=1730461151);
+}
+
+.box16 {
+  background-image: url(https://baccabucci.com/cdn/shop/files/1_7d49007c-898d-49a4-9819-a9acfe465cb1_600x.jpg?v=1720870406);  
+}
+.box16:hover {
+  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/891ba7e125f84d36b573191375dc216e.thumbnail.0000000000_600x.jpg?v=1724830675);
+}
+
+
