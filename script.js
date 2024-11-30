@@ -1,26 +1,4 @@
 
-
-function toggleAccordion(element) {
-  const content = element.nextElementSibling;
-  const chevron = element.querySelector('.chevron');
-  const isVisible = content.style.display === 'block';
-
-  // Close all open accordion items
-  document.querySelectorAll('.accordion-content').forEach((item) => {
-    item.style.display = 'none';
-  });
-  document.querySelectorAll('.chevron').forEach((item) => {
-    item.classList.remove('rotate');
-  });
-
-  // Toggle the selected accordion item
-  if (!isVisible) {
-    content.style.display = 'block';
-    chevron.classList.add('rotate');
-  }
-}
-
-
 function toggleDropdown1() {
   const dropdownContent1 = document.querySelector('.dropdown-content1');
   const chevron1 = document.querySelector('.chevron1');
@@ -35,7 +13,7 @@ function toggleDropdown1() {
   }
 }
 
-// Close the dropdown if the user clicks outside of it
+// Closing the dropdown if clicks outside 
 window.onclick = function(event) {
   if (!event.target.matches('.dropdown-btn1')) {
     const dropdownContent1 = document.querySelector('.dropdown-content1');
