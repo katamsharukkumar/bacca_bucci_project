@@ -269,6 +269,7 @@ img:hover {
  ul {
   padding-left: 0 !important;
   margin-bottom: 4px !important;
+
 }
 
 .dropdown-btn1 {
@@ -295,6 +296,7 @@ img:hover {
   padding: 6px 0px;
   list-style: none;
   padding-left:1rem !important;
+  cursor: pointer;
 }
 
 .show1 {
