@@ -325,7 +325,6 @@ img:hover {
 
 .product {
   max-width: 18rem;
-  
 }
 .img>p {
   font-size:0.8rem;
@@ -339,28 +338,29 @@ img:hover {
 .img button {
   font-size: 20px;
   background-color: #f59f00;
-  padding: 10px 70px;
+  padding: 10px 4rem;
   border-radius: 40px;
   text-align: center;
   border: 1px solid white;
-  transform: translate(24px, 240px);
+  transform: translate(24px, 210px);
   display: none;
-  transition: all 2s ease;
+  transition: all 8s ease !important;
 }
 
 .img { 
-  height: 350px;
-  background-size:cover;
+  height: 20rem;
+  background-size:100% 100%;
   transition: background-image 1s ease !important;
   cursor: pointer;
+  background-repeat: no-repeat;
 }
 
 .box1 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/1_0f99aa25-2a12-47f6-b011-a4a505dc44d3_600x.jpg?v=1724830490); 
+  background-image: url(./images/img1.webp); 
 }
 
 .box1:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/2_684ac477-c56e-4108-93b6-c3acba3cfc03_300x.jpg?v=1724830490);
+  background-image: url(./images/img1\(2\).webp);
   
 }
 .img:hover>button {
@@ -409,110 +409,110 @@ img:hover {
 /* ************************************** */
 
 .box2 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/1_0b7958dc-7137-4d8f-81ab-7fd0da52e328_600x.jpg?v=1726306410);  
+  background-image: url(./images/img2.webp);  
 }
 .box2:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/3401bd903569497e8aff677301eac90e.thumbnail.0000000000_600x.jpg?v=1729246092);
+  background-image: url(./images/img2\(2\).webp);
 }
 
 .box3 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/2_0edea5b9-a7e4-4fde-ae99-fe12754a9848_600x.jpg?v=1724651838);  
+  background-image: url(./images/img3.webp);  
 }
 .box3:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/7854412d0f8640a8bb1f71e057c6e5f1.thumbnail.0000000000_300x.jpg?v=1727352498);
+  background-image: url(./images/img3\(2\).webp);
 }
 
 .box4 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/MG_5036_600x.jpg?v=1730969034);  
+  background-image: url(./images/img4.jpg);  
 }
 .box4:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/MG_4867_600x.jpg?v=1730461151);
+  background-image: url(./images/img4\(2\).webp);
 }
 
 .box5 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/1_7d49007c-898d-49a4-9819-a9acfe465cb1_600x.jpg?v=1720870406);  
+  background-image: url(./images/img5.jpg);  
 }
 .box5:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/891ba7e125f84d36b573191375dc216e.thumbnail.0000000000_600x.jpg?v=1724830675);
+  background-image: url(./images/img5\(2\).jpg);
 }
 
 .box6 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/GREY_DSC00472-Edit-3-Edit_600x.jpg?v=1723037724);  
+  background-image: url(./images/img6.webp);  
 }
 .box6:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/484fcd80a39a49e5b26ff3cfd0d30e0f.thumbnail.0000000000_600x.jpg?v=1723400937);
+  background-image: url(./images/img6\(2\).jpg);
 }
 
 
 .box7 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/484fcd80a39a49e5b26ff3cfd0d30e0f.thumbnail.0000000000_600x.jpg?v=1723400937);  
+  background-image: url(./images/img7.jpg);  
 }
 .box7:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/IMG_9315_df8e86a8-155f-49e7-8498-dc47c8e45a4e_600x.jpg?v=1714634319);
+  background-image: url(./images/img7\(2\).jpg);
 }
 
 .box8 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/MG_8700_600x.jpg?v=1720176311);  
+  background-image: url(./images/img8.jpg);  
 }
 .box8:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/MG_8698_600x.jpg?v=1720176311);
+  background-image: url(./images/img8\(2\).jpg);
 }
 
 
 .box9 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/RED_DSC00619_600x.jpg?v=1723037724);  
+  background-image: url(./images/img9.jpg);  
 }
 .box9:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/484fcd80a39a49e5b26ff3cfd0d30e0f.thumbnail.0000000000_600x.jpg?v=1723400937);
+  background-image: url(./images/img9\(2\).jpg);
 }
 
 .box10 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/2_7c25e6e8-2166-4374-b6a9-eb148670cb28_600x.jpg?v=1724651828);  
+  background-image: url(./images/img10.jpg);  
 }
 .box10:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/7854412d0f8640a8bb1f71e057c6e5f1.thumbnail.0000000000_600x.jpg?v=1727352498);
+  background-image: url(./images/img11\(2\).webp);
 }
 
 .box11 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/1_7cdb6735-78ac-4ccb-b406-a3eff6c52ea6_600x.jpg?v=1720870273);  
+  background-image: url(./images/img11.webp);  
 }
 .box11:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/1_7cdb6735-78ac-4ccb-b406-a3eff6c52ea6_600x.jpg?v=1720870273);
+  background-image: url(./images/img11\(2\).webp);
 }
 
 .box12 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/IMG_6474_600x.jpg?v=1718971983);  
+  background-image: url(./images/img12.webp);  
 }
 .box12:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/IMG_6479_600x.jpg?v=1718971983);
+  background-image: url(./images/img12\(2\).jpg);
 }
 
 .box13 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/1_0b7958dc-7137-4d8f-81ab-7fd0da52e328_600x.jpg?v=1726306410);  
+  background-image: url(./images/img13.jpg);  
 }
 .box13:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/3401bd903569497e8aff677301eac90e.thumbnail.0000000000_600x.jpg?v=1729246092);
+  background-image: url(./images/img13\(2\).jpg);
 }
 
 .box14 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/2_0edea5b9-a7e4-4fde-ae99-fe12754a9848_600x.jpg?v=1724651838);  
+  background-image: url(./images/img14.jpg);  
 }
 .box14:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/7854412d0f8640a8bb1f71e057c6e5f1.thumbnail.0000000000_300x.jpg?v=1727352498);
+  background-image: url(./images/img14\(2\).jpg);
 }
 
 .box15 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/MG_5036_600x.jpg?v=1730969034);  
+  background-image: url(./images/img15.jpg);  
 }
 .box15:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/MG_4867_600x.jpg?v=1730461151);
+  background-image: url(./images/img15\(2\).webp);
 }
 
 .box16 {
-  background-image: url(https://baccabucci.com/cdn/shop/files/1_7d49007c-898d-49a4-9819-a9acfe465cb1_600x.jpg?v=1720870406);  
+  background-image: url(./images/img16.webp);  
 }
 .box16:hover {
-  background-image: url(https://baccabucci.com/cdn/shop/files/preview_images/891ba7e125f84d36b573191375dc216e.thumbnail.0000000000_600x.jpg?v=1724830675);
+  background-image: url(./images/img16\(2\).jpg);
 }
 
 

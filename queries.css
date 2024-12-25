@@ -1,9 +1,9 @@
 @keyframes myMove {
   from {
-    transform: translate(24px, 260px);
+    transform: translate(24px, 230px);
   }
   to {
-    transform: translate(24px, 240px);
+    transform: translate(24px, 210px);
   }
 
 }
